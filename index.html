@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh Selektor CSS</title>
+  <style>
+    /* Selektor Tag */
+    p {
+      color: blue;
+    }
+
+    /* Selektor Class */
+    .pink {
+      color: white;
+      background: blue;
+      padding: 5px;
+    }
+
+    /* Selektor ID */
+    #header {
+      background: teal;
+      color: white;
+      height: 50px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* Selektor Atribut */
+    input[type=text] {
+      background: none;
+      color: cyan;
+      padding: 10px;
+      border: 1px solid cyan;
+    }
+    /* Selektor Universal */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Selektor Pseudo */
+    .pink:hover {
+      color: white;
+      background: green;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <h1>Selamat Datang di Website Saya </h1>
+  </header>
+  <div>Helo apa kabar, saya <b class="pink">Abimanyu Yuniar Rasyid</b> sedang belajar CSS</div>
+  <p>Materi yang sedang kita bahas adalah Selektor</p>
+  <div>Saat ini sedang dibahas tentang selektor tag</div>
+  <p>Selektor tag adalah selektor untuk memilih elemen HTML berdasarkan nama tagnya</p>
+  <input type="text" placeholder="ketik sesuatu..." />
+</body>
+</html>
